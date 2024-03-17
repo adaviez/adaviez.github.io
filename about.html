@@ -27,14 +27,24 @@
         p {
             color: black;
         }
+        a:link {
+            color: inherit;
+            text-decoration: none;
+        }
+        a:visited {
+            color: inherit; /* This will make the link color the same as the parent text color */
+            text-decoration: none; /* This removes the underline */
+        }
+        a:hover, a:active {
+            color: blueviolet; /* Or any color you want on hover */
+            text-decoration: none; /* If you want the underline on hover */
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <p> Hello </p>
 	<p> I like thinking about technology, economics, languages and religion </p>
-    <p> Currently, i'm testing this out in VS Code </p>
-    <p>  Test </p>
     </div>
 
 </body>

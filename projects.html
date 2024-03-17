@@ -27,11 +27,24 @@
         p {
             color: black;
         }
+        a:link {
+            color: inherit;
+            text-decoration: none;
+        }
+        a:visited {
+            color: inherit; /* This will make the link color the same as the parent text color */
+            text-decoration: none; /* This removes the underline */
+        }
+        a:hover, a:active {
+            color: blueviolet; /* Or any color you want on hover */
+            text-decoration: none; /* If you want the underline on hover */
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2><a href="techdubai.html">Tech Dubai</a></h2>
+        <h1><a href="https://techdubai.framer.website/">Tech Dubai</a></h1>
+        <h2>Inspired after a trip to the UAE during a gloomy UK winter. Find a tech job in Dubai</h2>
     </div>
 
 </body>
