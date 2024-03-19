@@ -42,11 +42,24 @@
         h2 {
         margin-bottom: 10px; /* Adjust the value as needed */
         color: black;
+        margin-left: 0; /* Ensures no extra space on the left */
+        padding-left: 0; /* Adjust this as needed */
+        }
+        .home-button {
+        font-size: 0.8em;
+        padding: 5px 0px; /* Same horizontal padding as .container */
+        text-decoration: none;
+        color: black;
+        background: none;
+        border: none;
+        display: inline-block; /* Use inline-block for alignment */
+        margin-right: 20px; /* If you want some space between the button and the h2 */
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <a href="index.html" class="home-button">Home</a>
         <h1> Projects </h1>
         <h2><a href="https://techdubai.framer.website/">Tech Dubai</a></h2>
         Inspired after a trip to the UAE during a gloomy UK winter. Quite simply, a nice job listings site for tech jobs in Dubai. 
